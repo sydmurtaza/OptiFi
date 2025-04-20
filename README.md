@@ -1,5 +1,5 @@
-OptiFi: AI-Driven Yield Farming on Solana
-Overview
+#  **OptiFi: AI-Driven Yield Farming on Solana**
+## Overview
 OptiFi is an innovative decentralized finance (DeFi) platform built on the Solana blockchain, designed to optimize yield farming strategies using artificial intelligence (AI). By integrating AI-driven analytics, OptiFi dynamically allocates user deposits across multiple DeFi protocols (e.g., Orca, Raydium) to maximize returns while managing risk. This project was developed as part of the Solana Breakout Hackathon by Colosseum, showcasing the power of Solana’s high-speed blockchain, Anchor framework, and AI in DeFi.
 Key Features
 
