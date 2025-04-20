@@ -1,0 +1,11 @@
+{
+  "rust-analyzer.checkOnSave.command": "clippy",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "eslint.workingDirectories": ["./app"],
+  "prettier.requireConfig": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}

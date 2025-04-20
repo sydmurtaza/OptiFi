@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Rust Program",
+      "type": "rust",
+      "request": "launch",
+      "program": "${workspaceFolder}/app/programs/optifi/target/debug/optifi",
+      "args": [],
+      "cwd": "${workspaceFolder}/app/programs/optifi",
+      "stopAtEntry": false,
+      "env": {
+        "RUST_BACKTRACE": "1"
+      },
+      "preLaunchTask": "cargo build"
+    }
+  ]
+}

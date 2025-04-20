@@ -1,0 +1,21 @@
+[package]
+name = "optifi"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.29.0"
+solana-program = "=1.16.11"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "optifi"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
