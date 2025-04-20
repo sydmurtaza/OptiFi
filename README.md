@@ -1,14 +1,15 @@
 #  **OptiFi: AI-Driven Yield Farming on Solana**
 ## Overview
 OptiFi is an innovative decentralized finance (DeFi) platform built on the Solana blockchain, designed to optimize yield farming strategies using artificial intelligence (AI). By integrating AI-driven analytics, OptiFi dynamically allocates user deposits across multiple DeFi protocols (e.g., Orca, Raydium) to maximize returns while managing risk. This project was developed as part of the Solana Breakout Hackathon by Colosseum, showcasing the power of Solana’s high-speed blockchain, Anchor framework, and AI in DeFi.
-Key Features
+
+## _Key Features_ ##
 
 AI-Powered Yield Optimization: Uses Python-based AI scripts to analyze DeFi protocol data (e.g., APY, liquidity, risk) and recommend optimal allocation strategies.
 Solana Smart Contract: Built with Anchor, enabling secure and efficient deposit management, allocation tracking, and rebalancing.
 Next.js Frontend: A user-friendly interface for interacting with the smart contract, viewing allocations, and managing deposits.
 Scalable Architecture: Leverages Solana’s high throughput and low transaction costs for real-time DeFi operations.
 
-Project Structure
+##Project Structure##
 
 programs/optifi/: Solana smart contract written in Rust using Anchor.
 app/: Next.js frontend for user interaction.
@@ -17,7 +18,7 @@ tests/: Test scripts for the smart contract using Anchor’s testing framework.
 migrations/: Anchor deployment scripts.
 docs/: Project documentation, including the vision document.
 
-Frameworks and Tools
+##Frameworks and Tools##
 
 Solana: A high-performance blockchain for fast and cost-effective transactions.
 Anchor (v0.31.1): A framework for building Solana programs (smart contracts) in Rust, simplifying development with its high-level abstractions.
@@ -27,17 +28,18 @@ Python (v3.x): Used for AI scripts to analyze and optimize yield farming strateg
 Node.js (v18.x) and Yarn: For managing frontend dependencies and running the Next.js app.
 VS Code: Recommended IDE with extensions for Rust (Rust-Analyzer), JavaScript (ESLint, Prettier), and Solana development.
 
-Prerequisites
+3#Prerequisites##
 Before setting up OptiFi, ensure you have the following installed:
-System Requirements
+
+###System Requirements###
 
 Operating System: macOS, Linux, or Windows (macOS recommended based on development setup).
 Memory: At least 8GB RAM for compiling Rust and running the frontend.
 Disk Space: ~10GB for dependencies and build artifacts.
 
-Software
+####Software####
 
-Rust:
+_Rust:_
 
 Install Rust via rustup:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -61,7 +63,7 @@ Expected: rustc 1.88.0-nightly (or stable 1.81.0+), cargo 1.88.0-nightly (or sta
 
 
 
-Solana CLI (v1.18.22):
+_Solana CLI (v1.18.22)_
 
 Install:
 sh -c "$(curl -sSfL https://release.solana.com/v1.18.22/install)"
@@ -77,7 +79,7 @@ Expected: solana-cli 1.18.22.
 
 
 
-Anchor (v0.31.1):
+_Anchor (v0.31.1):_
 
 Install Anchor Version Manager (AVM) and Anchor CLI:
 cargo install --git https://github.com/coral-xyz/anchor --tag v0.31.1 anchor-cli --locked --force
@@ -96,7 +98,7 @@ cargo install --git https://github.com/coral-xyz/anchor anchor-cli --locked --fo
 
 
 
-Node.js (v18.x) and Yarn:
+_Node.js (v18.x) and Yarn:_
 
 Install Node.js via nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
@@ -118,7 +120,7 @@ Expected: v18.x for Node.js, v1.x for Yarn.
 
 
 
-Python (v3.x):
+_Python (v3.x):_
 
 Install Python (macOS via Homebrew):
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -139,7 +141,7 @@ Expected: Python 3.9+, with numpy, pandas, and requests installed.
 
 
 
-VS Code (Optional):
+_VS Code (Optional):_
 
 Install VS Code and recommended extensions:
 
@@ -164,7 +166,7 @@ Configure VS Code settings (.vscode/settings.json):
 
 
 
-Setup Instructions
+##Setup Instructions##
 Follow these steps to set up and build the OptiFi project:
 1. Clone the Repository
 git clone https://github.com/sydmurtaza/OptiFi.git
@@ -314,12 +316,10 @@ python3 ai/yield_optimizer.py
 
 Contributing
 Contributions are welcome! Please open an issue or pull request on GitHub.
-Resources
 
-Solana Docs
+_Resources_
+
+**Solana Docs
 Anchor Docs
 Next.js Docs
-Colosseum Hackathon
-
-License
-This project is licensed under the MIT License.
+Colosseum Hackathon**
